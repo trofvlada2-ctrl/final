@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #333;
+  line-height: 1.5;
+}
+
+h1 {
+  color: blue;
+}
+
+.title {
+  font-size: 24px;
+}
+
+section p {
+  margin-bottom: 10px;
+}
+
+main > section {
+  padding: 15px;
+}
+
+a[href] {
+  color: green;
+}
+
+a:hover {
+  color: red;
+}
+
+p:first-child {
+  font-weight: bold;
+}
+
+p::first-letter {
+  font-size: 18px;
+}
+
+h2 + p {
+  margin-top: 5px;
+}
